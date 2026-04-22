@@ -1,3 +1,8 @@
-function addToCart(){
-alert("Book added to cart!");
+let cartCount = 0;
+
+function addToCart() {
+    cartCount++;
+    document.getElementById("cart-count").innerText = cartCount;
+
+    alert("Book added to cart!");
 }
