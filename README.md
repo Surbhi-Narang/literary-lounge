@@ -1,7 +1,4 @@
-# web-projects
-My frontend web projects
-
-# 1. Literary Lounge Website
+# Literary Lounge Web Project
 
 A front-end website designed for book lovers to explore and share literary content.
 
