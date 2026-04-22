@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>📚 Literary Lounge</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&family=Dancing+Script:wght@600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="logo">📚 Literary Lounge</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#books">Books</a>
+            <a href="#bestsellers">Best Sellers</a>
+            <a href="#new">New Arrivals</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <section id="home" class="home">
+
+        <h2 class="welcome">Welcome to Literary Lounge 📚</h2>
+
+        <p>
+            Your cozy online space for discovering great books.
+            From inspiring <b>self-help titles</b> to imaginative <b>fiction</b> and insightful <b>non-fiction</b>, we
+            bring together stories and ideas for every kind of reader.
+        </p>
+
+        <p class="highlight">
+            Explore, learn, and enjoy the world of books all in one place.
+        </p>
+
+    </section>
+
+
+    <h2 id="books" class="sectionTitle">Our Book Collection</h2>
+
+    <div class="books">
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/81ANaVZk5LL.jpg">
+            <h3>Atomic Habits</h3>
+            <p>₹450</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/81l3rZK4lnL.jpg">
+            <h3>Ikigai</h3>
+            <p>₹399</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg">
+            <h3>The Alchemist</h3>
+            <p>₹350</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71zytzrg6lL.jpg">
+            <h3>Psychology of Money</h3>
+            <p>₹420</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/81s0B6NYXML.jpg">
+            <h3>It Ends With Us</h3>
+            <p>₹399</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/81-QB7nDh4L.jpg">
+            <h3>It Starts With Us</h3>
+            <p>₹420</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg">
+            <h3>Harry Potter Series</h3>
+            <p>₹2500</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg">
+            <h3>Red Flags & Rishtas</h3>
+            <p>₹299</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/81BE7eeKzAL.jpg">
+            <h3>Do Epic Shit</h3>
+            <p>₹299</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71g2ednj0JL.jpg">
+            <h3>Attitude Is Everything</h3>
+            <p>₹320</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71UwSHSZRnS.jpg">
+            <h3>The Subtle Art</h3>
+            <p>₹380</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71aG+xDKSYL.jpg">
+            <h3>Think Like a Monk</h3>
+            <p>₹399</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg">
+            <h3>Rich Dad Poor Dad</h3>
+            <p>₹350</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71UypkUjStL.jpg">
+            <h3>Think and Grow Rich</h3>
+            <p>₹300</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="book"><img src="https://m.media-amazon.com/images/I/71HMyqG6MRL.jpg">
+            <h3>Deep Work</h3>
+            <p>₹430</p><button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </div>
+
+
+    <h2 id="bestsellers" class="sectionTitle">Best Sellers ⭐</h2>
+
+    <p class="sectionText">
+        Our most loved books by readers worldwide. These titles inspire, motivate and entertain thousands of readers
+        every day.
+    </p>
+
+
+    <h2 id="new" class="sectionTitle">New Arrivals ✨</h2>
+
+    <p class="sectionText">
+        Fresh titles just added to our collection. Discover the newest ideas, stories and perspectives.
+    </p>
+
+
+    <footer id="about">
+
+        <h3>Need Help?</h3>
+
+        <p>For any queries, feedback, or assistance related to this website, please feel free to contact me.</p>
+
+        <p><b>Name:</b> Surbhi Narang</p>
+        <p><b>Email:</b> surbhinarang08@icloud.com</p>
+        <p><b>Phone:</b> +91 6239880821</p>
+
+        <p class="copyright">© 2026 Literary Lounge</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
