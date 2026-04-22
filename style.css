@@ -108,3 +108,73 @@ margin-top:40px;
 font-size:14px;
 color:#ddd;
 }
+
+/* ===== NEW IMPROVEMENTS START ===== */
+
+/* Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Improve nav spacing */
+nav {
+    margin-top: 10px;
+}
+
+/* Cart styling */
+.cart {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Better book hover */
+.book {
+    transition: 0.3s ease;
+}
+
+.book:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Better button */
+button {
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Section spacing */
+.sectionTitle {
+    margin-top: 60px;
+}
+
+/* Improve text readability */
+.sectionText {
+    line-height: 1.6;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .book {
+        width: 90%;
+    }
+
+    .welcome {
+        font-size: 28px;
+    }
+}
+
+/* ===== NEW IMPROVEMENTS END ===== */
